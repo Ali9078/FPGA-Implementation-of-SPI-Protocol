@@ -1,0 +1,5 @@
+@W: FX1172 :"e:\verilog_1st_year\spi\hdl\spi_master.v":48:0:48:5|User-specified initial value defined for instance spi_master_0.mosi_out is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\verilog_1st_year\spi\hdl\spi_master.v":38:0:38:5|User-specified initial value defined for instance spi_master_0.spi_clk is being ignored due to limitations in architecture. 
+@W: MO129 :"e:\verilog_1st_year\spi\hdl\spi_master.v":48:0:48:5|Sequential instance spi_master_0.mosi_out is reduced to a combinational gate by constant propagation.
+@W: MT530 :"e:\verilog_1st_year\spi\hdl\spi_master.v":38:0:38:5|Found inferred clock sp|clock_in which controls 1 sequential elements including spi_master_0.spi_clk. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\verilog_1st_year\spi\hdl\spi_master.v":48:0:48:5|Found inferred clock spi_master|spi_clk_inferred_clock which controls 4 sequential elements including spi_master_0.mosi_counter[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,125 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\Verilog_1st_year\SPI\hdl\spi_master.v" (library work)
+@I::"E:\Verilog_1st_year\SPI\component\work\sp\sp.v" (library work)
+Verilog syntax check successful!
+File E:\Verilog_1st_year\SPI\component\work\sp\sp.v changed - recompiling
+Selecting top level module sp
+@N: CG364 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":1:7:1:16|Synthesizing module spi_master in library work.
+@W: CG532 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":30:0:30:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":22:9:22:20|Index into variable data could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on spi_master .......
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register state_miso[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register miso_counter[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register received_data[7:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on spi_master (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"E:\Verilog_1st_year\SPI\component\work\sp\sp.v":9:7:9:8|Synthesizing module sp in library work.
+Running optimization stage 1 on sp .......
+Finished optimization stage 1 on sp (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on sp .......
+Finished optimization stage 2 on sp (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on spi_master .......
+@N: CL201 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Trying to extract state machine for register state_mosi.
+@N: CL189 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Register bit state_mosi[0] is always 0.
+@W: CL260 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning register bit 0 of state_mosi[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Register bit 0 always 0, optimizing ...
+@W: CL260 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning register bit 1 of state_mosi[2:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning unused register state_mosi[2]. Make sure that there are no unused intermediate registers.
+@N: CL159 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":2:10:2:13|Input miso is unused.
+Finished optimization stage 2 on spi_master (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\Verilog_1st_year\SPI\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+File E:\Verilog_1st_year\SPI\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Verilog_1st_year\SPI\synthesis\synwork\sp_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]

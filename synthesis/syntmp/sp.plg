@@ -1,0 +1,16 @@
+@P:  Worst Slack : 8.171
+@P:  spi_master|spi_clk_inferred_clock - Estimated Frequency : NA
+@P:  spi_master|spi_clk_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  spi_master|spi_clk_inferred_clock - Estimated Period : NA
+@P:  spi_master|spi_clk_inferred_clock - Requested Period : 10.000
+@P:  spi_master|spi_clk_inferred_clock - Slack : NA
+@P:  sp|clock_in - Estimated Frequency : 546.7 MHz
+@P:  sp|clock_in - Requested Frequency : 100.0 MHz
+@P:  sp|clock_in - Estimated Period : 1.829
+@P:  sp|clock_in - Requested Period : 10.000
+@P:  sp|clock_in - Slack : 8.171
+@P: sp Part : m2s050vf400std
+@P: sp Register bits  : 1 
+@P: sp DSP Blocks  : 0
+@P: sp I/O primitives : 5
+@P:  CPU Time : 0h:00m:02s

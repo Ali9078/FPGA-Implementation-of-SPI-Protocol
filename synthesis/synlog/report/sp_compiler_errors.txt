@@ -1,0 +1,2 @@
+@E: CL172 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":22:9:22:15|Only one always block can assign a given variable counter[3:0]
+

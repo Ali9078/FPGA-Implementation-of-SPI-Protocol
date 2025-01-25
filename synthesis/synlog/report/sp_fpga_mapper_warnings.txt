@@ -1,0 +1,4 @@
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock sp|clock_in with period 10.00ns. Please declare a user-defined clock on port clock_in.
+@W: MT420 |Found inferred clock spi_master|spi_clk_inferred_clock with period 10.00ns. Please declare a user-defined clock on net spi_master_0.sclk_c.

@@ -1,0 +1,584 @@
+<html><body><samp><pre>
+<!@TC:1730734506>
+#Build: Synplify Pro (R) T-2022.09M-SP2-1, Build 179R, Jun 27 2023
+#install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-6AKHTM4
+
+# Mon Nov  4 21:05:06 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @</a>
+
+@N: : <!@TM:1730734507> | Running in 64-bit mode 
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=compilerReport2></a>Synopsys Verilog Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @</a>
+
+@N: : <!@TM:1730734507> | Running in 64-bit mode 
+@N:<a href="@N:CG1349:@XP_HELP">CG1349</a> : <!@TM:1730734507> | Running Verilog Compiler in System Verilog mode 
+
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\Verilog_1st_year\SPI\hdl\spi_master.v" (library work)
+@I::"E:\Verilog_1st_year\SPI\component\work\sp\sp.v" (library work)
+Verilog syntax check successful!
+File E:\Verilog_1st_year\SPI\component\work\sp\sp.v changed - recompiling
+Selecting top level module sp
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:1:7:1:17:@N:CG364:@XP_MSG">spi_master.v(1)</a><!@TM:1730734507> | Synthesizing module spi_master in library work.
+<font color=#A52A2A>@W:<a href="@W:CG532:@XP_HELP">CG532</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:30:0:30:7:@W:CG532:@XP_MSG">spi_master.v(30)</a><!@TM:1730734507> | Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</font>
+<font color=#A52A2A>@W:<a href="@W:CG1340:@XP_HELP">CG1340</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:22:9:22:21:@W:CG1340:@XP_MSG">spi_master.v(22)</a><!@TM:1730734507> | Index into variable data could be out of range ; a simulation mismatch is possible.</font>
+Running optimization stage 1 on spi_master .......
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:75:0:75:6:@W:CL169:@XP_MSG">spi_master.v(75)</a><!@TM:1730734507> | Pruning unused register state_miso[2:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:75:0:75:6:@W:CL169:@XP_MSG">spi_master.v(75)</a><!@TM:1730734507> | Pruning unused register miso_counter[3:0]. Make sure that there are no unused intermediate registers.</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:75:0:75:6:@W:CL169:@XP_MSG">spi_master.v(75)</a><!@TM:1730734507> | Pruning unused register received_data[7:0]. Make sure that there are no unused intermediate registers.</font>
+Finished optimization stage 1 on spi_master (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="E:\Verilog_1st_year\SPI\component\work\sp\sp.v:9:7:9:9:@N:CG364:@XP_MSG">sp.v(9)</a><!@TM:1730734507> | Synthesizing module sp in library work.
+Running optimization stage 1 on sp .......
+Finished optimization stage 1 on sp (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on sp .......
+Finished optimization stage 2 on sp (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+Running optimization stage 2 on spi_master .......
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@N:CL201:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Trying to extract state machine for register state_mosi.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@N:CL189:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Register bit state_mosi[0] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@W:CL260:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Pruning register bit 0 of state_mosi[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL257:@XP_HELP">CL257</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@W:CL257:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Register bit 0 always 0, optimizing ...</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@W:CL260:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Pruning register bit 1 of state_mosi[2:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL257:@XP_HELP">CL257</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@W:CL257:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Register bit 0 always 0, optimizing ...</font>
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:48:0:48:6:@W:CL169:@XP_MSG">spi_master.v(48)</a><!@TM:1730734507> | Pruning unused register state_mosi[2]. Make sure that there are no unused intermediate registers.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="E:\Verilog_1st_year\SPI\hdl\spi_master.v:2:10:2:14:@N:CL159:@XP_MSG">spi_master.v(2)</a><!@TM:1730734507> | Input miso is unused.
+Finished optimization stage 2 on spi_master (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+Linked File:  <a href="E:\Verilog_1st_year\SPI\synthesis\synwork\layer0.duruntime:@XP_FILE">layer0.duruntime</a>
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @</a>
+
+@N: : <!@TM:1730734507> | Running in 64-bit mode 
+File E:\Verilog_1st_year\SPI\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  <a href="E:\Verilog_1st_year\SPI\synthesis\synwork\sp_comp.rt.csv:@XP_FILE">sp_comp.rt.csv</a>
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:07 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1730734506>
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=compilerReport10></a>Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @</a>
+
+@N: : <!@TM:1730734508> | Running in 64-bit mode 
+File E:\Verilog_1st_year\SPI\synthesis\synwork\sp_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Nov  4 21:05:08 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1730734506>
+Premap Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1730734506>
+# Mon Nov  4 21:05:08 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=mapperReport23></a>Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 136MB)
+
+Reading constraint file: E:\Verilog_1st_year\SPI\designer\sp\synthesis.fdc
+Linked File:  <a href="E:\Verilog_1st_year\SPI\synthesis\sp_scck.rpt:@XP_FILE">sp_scck.rpt</a>
+See clock summary report "E:\Verilog_1st_year\SPI\synthesis\sp_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1730734510> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1730734510> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1730734510> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+
+NConnInternalConnection caching is on
+<font color=#A52A2A>@W:<a href="@W:FX1172:@XP_HELP">FX1172</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:48:0:48:6:@W:FX1172:@XP_MSG">spi_master.v(48)</a><!@TM:1730734510> | User-specified initial value defined for instance spi_master_0.mosi_out is being ignored due to limitations in architecture. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1172:@XP_HELP">FX1172</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:38:0:38:6:@W:FX1172:@XP_MSG">spi_master.v(38)</a><!@TM:1730734510> | User-specified initial value defined for instance spi_master_0.spi_clk is being ignored due to limitations in architecture. </font>
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:48:0:48:6:@W:MO129:@XP_MSG">spi_master.v(48)</a><!@TM:1730734510> | Sequential instance spi_master_0.mosi_out is reduced to a combinational gate by constant propagation.</font>
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1730734510> | Applying syn_allowed_resources blockrams=69 on top level netlist sp  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+
+
+<a name=mapperReport24></a>Clock Summary</a>
+******************
+
+          Start                                 Requested     Requested     Clock        Clock          Clock
+Level     Clock                                 Frequency     Period        Type         Group          Load 
+-------------------------------------------------------------------------------------------------------------
+0 -       spi_master|spi_clk_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     4    
+                                                                                                             
+0 -       sp|clock_in                           100.0 MHz     10.000        inferred     (multiple)     1    
+=============================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                      Clock     Source                               Clock Pin                            Non-clock Pin     Non-clock Pin
+Clock                                 Load      Pin                                  Seq Example                          Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+spi_master|spi_clk_inferred_clock     4         spi_master_0.spi_clk.Q[0](sdffr)     spi_master_0.mosi_counter[3:0].C     -                 -            
+                                                                                                                                                         
+sp|clock_in                           1         clock_in(port)                       spi_master_0.spi_clk.C               -                 -            
+=========================================================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:38:0:38:6:@W:MT530:@XP_MSG">spi_master.v(38)</a><!@TM:1730734510> | Found inferred clock sp|clock_in which controls 1 sequential elements including spi_master_0.spi_clk. This clock has no specified timing constraint which may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:48:0:48:6:@W:MT530:@XP_MSG">spi_master.v(48)</a><!@TM:1730734510> | Found inferred clock spi_master|spi_clk_inferred_clock which controls 4 sequential elements including spi_master_0.mosi_counter[3:0]. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1730734510> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1730734510> | Writing default property annotation file E:\Verilog_1st_year\SPI\synthesis\sp.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 86MB peak: 172MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov  4 21:05:10 2024
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1730734506>
+Map & Optimize Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1730734506>
+# Mon Nov  4 21:05:10 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-6AKHTM4
+
+Implementation : synthesis
+<a name=mapperReport37></a>Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1730734513> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1730734513> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1730734513> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 136MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="e:\verilog_1st_year\spi\hdl\spi_master.v:48:0:48:6:@N:BN362:@XP_MSG">spi_master.v(48)</a><!@TM:1730734513> | Removing sequential instance spi_master_0.mosi_counter[3:0] (in view: work.sp(verilog)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 171MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     8.27ns		   1 /         1
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 173MB)
+
+Writing Analyst data base E:\Verilog_1st_year\SPI\synthesis\synwork\sp_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+Writing Verilog Simulation files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1730734513> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1730734513> | Synopsys Constraint File capacitance units using default value of 1pF  
+<font color=#A52A2A>@W:<a href="@W:BW156:@XP_HELP">BW156</a> : <!@TM:1730734513> | Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.</font> 
+<font color=#A52A2A>@W:<a href="@W:BW156:@XP_HELP">BW156</a> : <!@TM:1730734513> | Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.</font> 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 175MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 175MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1730734513> | Found inferred clock sp|clock_in with period 10.00ns. Please declare a user-defined clock on port clock_in.</font> 
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1730734513> | Found inferred clock spi_master|spi_clk_inferred_clock with period 10.00ns. Please declare a user-defined clock on net spi_master_0.sclk_c.</font> 
+
+
+<a name=timingReport38></a>##### START OF TIMING REPORT #####[</a>
+# Timing report written on Mon Nov  4 21:05:12 2024
+#
+
+
+Top view:               sp
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Verilog_1st_year\SPI\designer\sp\synthesis.fdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1730734513> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1730734513> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary39></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 8.171
+
+                                      Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                        Frequency     Frequency     Period        Period        Slack     Type         Group     
+-------------------------------------------------------------------------------------------------------------------------------
+spi_master|spi_clk_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+sp|clock_in                           100.0 MHz     546.7 MHz     10.000        1.829         8.171     inferred     (multiple)
+===============================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+<a name=clockRelationships40></a>Clock Relationships</a>
+*******************
+
+Clocks                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------
+sp|clock_in  sp|clock_in  |  10.000      8.171  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo41></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport42></a>Detailed Report for Clock: sp|clock_in</a>
+====================================
+
+
+
+<a name=startingSlack43></a>Starting Points with Worst Slack</a>
+********************************
+
+                         Starting                                       Arrival          
+Instance                 Reference       Type     Pin     Net           Time        Slack
+                         Clock                                                           
+-----------------------------------------------------------------------------------------
+spi_master_0.spi_clk     sp|clock_in     SLE      Q       spi_clk_i     0.108       8.171
+=========================================================================================
+
+
+<a name=endingSlack44></a>Ending Points with Worst Slack</a>
+******************************
+
+                         Starting                                       Required          
+Instance                 Reference       Type     Pin     Net           Time         Slack
+                         Clock                                                            
+------------------------------------------------------------------------------------------
+spi_master_0.spi_clk     sp|clock_in     SLE      D       spi_clk_1     9.745        8.171
+==========================================================================================
+
+
+
+<a name=worstPaths45></a>Worst Path Information</a>
+<a href="E:\Verilog_1st_year\SPI\synthesis\sp.srr:srsfE:\Verilog_1st_year\SPI\synthesis\sp.srs:fp:26182:26704:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.574
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.171
+
+    Number of logic level(s):                1
+    Starting point:                          spi_master_0.spi_clk / Q
+    Ending point:                            spi_master_0.spi_clk / D
+    The start point is clocked by            sp|clock_in [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sp|clock_in [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+spi_master_0.spi_clk       SLE      Q        Out     0.108     0.108 f     -         
+spi_clk_i                  Net      -        -       1.117     -           2         
+spi_master_0.spi_clk_1     CFG2     A        In      -         1.225 f     -         
+spi_master_0.spi_clk_1     CFG2     Y        Out     0.100     1.325 r     -         
+spi_clk_1                  Net      -        -       0.248     -           1         
+spi_master_0.spi_clk       SLE      D        In      -         1.574 r     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 1.829 is 0.464(25.3%) logic and 1.366(74.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 175MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 175MB)
+
+---------------------------------------
+<a name=resourceUsage46></a>Resource Usage Report for sp </a>
+
+Mapping to part: m2s050vf400std
+Cell usage:
+CFG2           1 use
+
+
+Sequential Cells: 
+SLE            1 use
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 6
+I/O primitives: 5
+INBUF          2 uses
+OUTBUF         3 uses
+
+
+Total LUTs:    1
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1 + 0 + 0 + 0 = 1;
+Total number of LUTs after P&R:  1 + 0 + 0 + 0 = 1;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 175MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Nov  4 21:05:13 2024
+
+###########################################################]
+
+</pre></samp></body></html>

@@ -1,0 +1,11 @@
+@W: CG532 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":30:0:30:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG1340 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":22:9:22:20|Index into variable data could be out of range ; a simulation mismatch is possible.
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register state_miso[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register miso_counter[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":75:0:75:5|Pruning unused register received_data[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL260 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning register bit 0 of state_mosi[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Register bit 0 always 0, optimizing ...
+@W: CL260 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning register bit 1 of state_mosi[2:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Register bit 0 always 0, optimizing ...
+@W: CL169 :"E:\Verilog_1st_year\SPI\hdl\spi_master.v":48:0:48:5|Pruning unused register state_mosi[2]. Make sure that there are no unused intermediate registers.
+

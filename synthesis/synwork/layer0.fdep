@@ -1,0 +1,22 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\Verilog_1st_year\\SPI\\synthesis\\synwork\\sp_comp.srs|-top|sp|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|E:\\Verilog_1st_year\\SPI\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\bin64\\c_ver.exe":1691490330
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\generic\\smartfusion2.v":1691490345
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vlog\\hypermods.v":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vlog\\umr_capim.v":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1691490346
+#CUR:"E:\\Verilog_1st_year\\SPI\\hdl\\spi_master.v":1730734205
+#CUR:"E:\\Verilog_1st_year\\SPI\\component\\work\\sp\\sp.v":1730734458
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"E:\Verilog_1st_year\SPI\hdl\spi_master.v" verilog
+1			"E:\Verilog_1st_year\SPI\component\work\sp\sp.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work spi_master 0
+module work sp 1
