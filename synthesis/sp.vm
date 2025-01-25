@@ -1,0 +1,132 @@
+//
+// Written by Synplify Pro 
+// Product Version "T-2022.09M-SP2-1"
+// Program "Synplify Pro", Mapper "map202209actsp2, Build 145R"
+// Mon Nov  4 21:05:12 2024
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\e:\verilog_1st_year\spi\hdl\spi_master.v "
+// file 6 "\e:\verilog_1st_year\spi\component\work\sp\sp.v "
+// file 7 "\c:\microchip\libero_soc_v2023.2\synplifypro\lib\nlconst.dat "
+// file 8 "\e:\verilog_1st_year\spi\designer\sp\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module spi_master (
+  sclk_c,
+  rs_c,
+  clock_in_c
+)
+;
+output sclk_c ;
+input rs_c ;
+input clock_in_c ;
+wire sclk_c ;
+wire rs_c ;
+wire clock_in_c ;
+wire VCC ;
+wire spi_clk_1_Z ;
+wire GND ;
+wire N_6 ;
+wire N_5 ;
+wire N_4 ;
+wire N_3 ;
+wire N_1 ;
+// @5:38
+  SLE spi_clk (
+	.Q(sclk_c),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clock_in_c),
+	.D(spi_clk_1_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:38
+  CFG2 spi_clk_1 (
+	.A(sclk_c),
+	.B(rs_c),
+	.Y(spi_clk_1_Z)
+);
+defparam spi_clk_1.INIT=4'h1;
+//@6:57
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* spi_master */
+
+module sp (
+  clock_in,
+  miso,
+  rs,
+  cs,
+  mosi,
+  sclk
+)
+;
+input clock_in ;
+input miso ;
+input rs ;
+output cs ;
+output mosi ;
+output sclk ;
+wire clock_in ;
+wire miso ;
+wire rs ;
+wire cs ;
+wire mosi ;
+wire sclk ;
+wire GND ;
+wire VCC ;
+wire clock_in_c ;
+wire rs_c ;
+wire sclk_c ;
+// @6:23
+  INBUF clock_in_ibuf (
+	.Y(clock_in_c),
+	.PAD(clock_in)
+);
+// @6:25
+  INBUF rs_ibuf (
+	.Y(rs_c),
+	.PAD(rs)
+);
+// @6:29
+  OUTBUF cs_obuf (
+	.PAD(cs),
+	.D(VCC)
+);
+// @6:30
+  OUTBUF mosi_obuf (
+	.PAD(mosi),
+	.D(VCC)
+);
+// @6:31
+  OUTBUF sclk_obuf (
+	.PAD(sclk),
+	.D(sclk_c)
+);
+// @6:57
+  spi_master spi_master_0 (
+	.sclk_c(sclk_c),
+	.rs_c(rs_c),
+	.clock_in_c(clock_in_c)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* sp */
+

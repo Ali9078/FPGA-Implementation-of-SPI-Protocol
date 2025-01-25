@@ -1,0 +1,77 @@
+Synplify Pro (R) Job Log
+Date: 21:05:13    04-Nov-2024
+Install Directory: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 21:05:06
+   Runtime: 07s
+   Executable Run Time: 6 - (Sum of all child executables)
+   Current Working Directory: E:\Verilog_1st_year\SPI\synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 21:05:06
+      Runtime: 07s
+      Executable Run Time: 6 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 21:05:06
+         Runtime: 04s
+         Executable Run Time: 3 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 21:05:06
+            Runtime: 02s
+            Executable Run Time: 1 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin64\c_hdl.exe
+               Run Directory: E:/Verilog_1st_year/SPI/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 21:05:06
+               Run Time: 02s
+               Executable Run Time: 1 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+            Job: multi_srs_gen
+               executable: bin64\syn_nfilter.exe
+               Run Directory: E:/Verilog_1st_year/SPI/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 21:05:08
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+         Job: premap
+            executable: bin64\m_generic.exe
+            Run Directory: E:/Verilog_1st_year/SPI/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 21:05:08
+            Run Time: 02s
+            Executable Run Time: 2 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+
+      JobFlow: map
+         Run Start Time: 21:05:10
+         Runtime: 03s
+         Executable Run Time: 3 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin64\m_generic.exe
+            Run Directory: E:/Verilog_1st_year/SPI/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 21:05:10
+            Run Time: 03s
+            Executable Run Time: 3 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no

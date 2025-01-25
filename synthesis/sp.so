@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>sp</design>
+	<target_verilog>E:\Verilog_1st_year\SPI\synthesis\sp.vm</target_verilog>
+</SynplifyOutput>
