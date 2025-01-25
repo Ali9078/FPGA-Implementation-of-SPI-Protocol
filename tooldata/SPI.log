@@ -1,0 +1,16 @@
+Project Name: SPI
+Location: E:\Verilog_1st_year\SPI
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S050-FG484
+Family         : SmartFusion2
+Die            : M2S050
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

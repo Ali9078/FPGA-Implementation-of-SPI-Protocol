@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Mon Nov  4 21:04:18 2024
+Project   :  E:\Verilog_1st_year\SPI
+Component :  sp
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Verilog_1st_year/SPI/component/work/sp/sp.v
+

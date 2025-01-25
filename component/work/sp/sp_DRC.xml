@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>sp</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>No Top Level Ports</message>
+    <detail>You must create at least one port for a valid design</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/instances/sp</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Unused Instance</message>
+    <detail>spi_master_0 output pins are not being used.  Connect or mark them unused</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/instances/spi_master_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin spi_master_0:miso</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:miso</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin spi_master_0:sclk</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:sclk</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin spi_master_0:mosi</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:mosi</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin spi_master_0:cs</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:cs</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin spi_master_0:clock_in</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:clock_in</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin spi_master_0:rs</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/sp/pins/spi_master_0:rs</crossprobe>
+  </drc>
+</drcreport>

@@ -1,0 +1,4 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O
+Primitives/Primitives,0,0,5
+spi_master_0/Primitives,1,1,0
